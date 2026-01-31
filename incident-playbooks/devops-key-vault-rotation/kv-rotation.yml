@@ -2,7 +2,7 @@ trigger:
 - main
 
 pool:
-  vmImage: pool-selfhosted
+  name: pool-selfhosted
 
 steps:
 - task: AzureKeyVault@2
